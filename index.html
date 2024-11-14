@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docker Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Docker Manager</h1>
+  <button onclick="listContainers()">List Containers</button>
+  <!-- <button onclick="listImages()">List Images</button> -->
+
+  <h2>Containers</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Container Name</th>
+        <th>Status</th>
+        <th>Network</th>
+        <th>IP Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="container-list"></tbody>
+  </table>
+<!-- 
+  <h2>Images</h2>
+  <ul id="image-list"></ul> -->
+
+  <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "docker-electron-app",
+  "version": "1.0.0",
+  "description": "A Docker-integrated Electron application for demonstration purposes",
+  "main": "main.js",
+  "homepage": "https://github.com/yourusername/docker-electron-app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist:linux": "electron-builder --linux",
+    "build": "electron-builder "
+  },
+  "keywords": [],
+  "author": {
+    "name": "Rodrigo Antunes",
+    "email": "rodrigoka4@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "dockerode": "^4.0.2",
+    "electron": "^33.1.0",
+    "electron-builder": "^25"
+  },
+  "build":{
+    "appId":"com.roddyka.electron-docker",
+    "linux":{
+      "target": [
+        "deb"
+      ],
+      "category": "Utility",
+      "maintainer": "Rodrigo Antunes <rodrigoka4@gmail.com>",
+      "icon": "docker.png"
+    }
+  }
+}

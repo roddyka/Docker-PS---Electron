@@ -1,0 +1,136 @@
+/* Estilo Global */
+body {
+    font-family: 'MS Sans Serif', sans-serif;
+    background-color: #008080; /* Cor de fundo típica do Windows 98 */
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Título Principal */
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Botões */
+  button {
+    font-family: 'MS Sans Serif', sans-serif;
+    background-color: #c0c0c0;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button:active {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Tabelas */
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #c0c0c0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+  
+  th {
+    background-color: #000080;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+  }
+  
+  tbody tr:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Lista de Imagens */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    background-color: #c0c0c0;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+  
+  ul li:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Estilo de Containers */
+  #container-list {
+    width: 100%;
+  }
+  
+  .container-row {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  
+  .container-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .container-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .container-status {
+    font-size: 14px;
+  }
+  
+  .container-action button {
+    background-color: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
+  .container-action button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Barra de Navegação */
+  h2 {
+    margin-top: 30px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  
