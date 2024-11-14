@@ -5,6 +5,8 @@ This application is a simple Electron-based Docker manager that allows users to:
 - Add container network entries to the `/etc/hosts` file for easier access.
 - List all available Docker images.
 
+![App Screenshot](./screenshot.png)
+
 ## Prerequisites
 
 - Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
